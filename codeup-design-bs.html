@@ -1,40 +1,140 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Codeup Design</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <!-- Your custom css styles go here -->
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Abel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bs-design.css">
+    <script src="https://kit.fontawesome.com/8d58347b96.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="p-0 m-0">
+<!--Nav-->
+<div>
+    <!--Default xs navbar-->
+    <div class="d-sm-none d-block">
+        <header>
+            <div class="headerbg"></div>
+            <div>
+                <img src="img/logo.png" alt="logo" class="logo mx-auto d-block">
+                <h1 class="codeup-header text-center">Codeup design</h1>
+            </div>
+        </header>
 
-<!-- Main page content -->
+        <nav class="p-style navbar-light bg-grey main-nav _nav-main mx-5">
+            <div class="container">
+                <ul class="nav justify-content-center navbar-nav flex-row">
+                    <li class="nav-item active ml-3 mr-4">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item active mr-4">
+                        <a class="nav-link" href="#">Work</a>
+                    </li>
+                    <li class="nav-item active mr-4">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- Small navbar-->
+    <div class="d-none d-sm-block d-md-none">
+        <header>
+            <div class="headerbg"></div>
+        </header>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-<!--default xs-->
-<div class="d-sm">
-    <header>
-        <div class="header-bg"></div>
+        <nav class="p-style navbar-light bg-transparent main-nav mx-5">
+            <div class="container">
+                <ul class="nav justify-content-center align-items-center navbar-nav flex-row">
+                    <li class="nav-item active m-4">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item active m-4">
+                        <a class="nav-link" href="#">Work</a>
+                    </li>
+                    <li>
+                        <img src="img/logo.png" alt="logo" class="logo mx-auto d-block">
+                    </li>
+                    <li class="nav-item active m-4">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item active m-4">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
         <div>
-        <img alt="logo" class="logo mx-auto d-block" src="img/logo.png">
-        <h1 class="codeup-header text-center">Codeup Design</h1>
+             <img src="img/logo.png" alt="logo" class="logo mx-auto d-block">
+            <h1 class="codeup-header text-center">Codeup design</h1>
         </div>
-    </header>
-    <nav class="p-style navbar-light bg-grey main-nav _nav-main mx-5">
-        <div class="container">
-            <ul class="nav justify-content-center navbar-nav flex-row">
-                <li class="nav-item active ml-3 mr-4"><a class="nav-link" href="#">Services</a></li>
-                <li class="nav-item active  mr-4"><a class="nav-link" href="#">Work</a></li>
-                <li class="nav-item active  mr-4"><a class="nav-link" href="#">Blog</a></li>
-                <li class="nav-item active" ><a class="nav-link" href="#">Contact</a></li>
-
-            </ul>
-        </div>
-    </nav>
+    </div>
+    <!-- medium-->
+    <div class="d-none d-md-block ">
+        <div class="headerbg"></div>
+        <header>
+            <div class="container d-flex flex-row">
+                <img src="img/logo.png" alt="logo" class="logo ml-4">
+                <h4 class="codeup-header text-left align-self-center ml-2 mr-auto">Codeup design</h4>
+                <ul class="p-style main-nav justify-content-center d-flex align-items-center navbar-nav flex-row">
+                    <li class="nav-item ml-3 mr-4">
+                        <a class="nav-link text-dark" href="#">Services</a>
+                    </li>
+                    <li class="nav-item active mr-4">
+                        <a class="nav-link text-dark" href="#">Work</a>
+                    </li>
+                    <li class="nav-item active mr-4">
+                        <a class="nav-link text-dark" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link text-dark" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+    </div>
 </div>
+<!--Buttons-->
+<div class="container col-md-12 col-lg-8">
+    <div class="row">
+        <div class="col-12 text-center">
+            <h1 class="mb-5">Visual Design & Web Development</h1>
+            <h3 class="mb-5">From Park City, Utah</h3>
+        </div>
+
+        <div class="container px-4 mb-5 mb-sm-1">
+            <div class="row">
+                <div class="col-6 col-sm-3 text-center mb-2">
+                    <div class="circle rounded-circle red text-white">Design</div>
+                </div>
+                <div class="col-6 col-sm-3 text-center">
+                    <div class="circle rounded-circle orange text-white">Develop</div>
+                </div>
+                <div class="col-6 col-sm-3 text-center">
+                    <div class="circle rounded-circle green text-white">Support</div>
+                </div>
+                <div class="col-6 col-sm-3 text-center">
+                    <div class="circle rounded-circle blue text-white">Host</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
 </body>
 </html>
