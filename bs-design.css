@@ -115,3 +115,14 @@ h5 {
     font-family: 'Abel', 'sans-serif';
     font-weight: bold;
 }
+
+#social-media {
+    color: #1da1f3
+}
+
+.last-tweet-p {
+    font-family: 'Abel', 'sans-serif';
+    font-size: small;
+    text-transform: capitalize;
+    background-color: #f0f0f0;
+}
