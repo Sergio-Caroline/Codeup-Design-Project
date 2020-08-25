@@ -108,3 +108,10 @@ h5 {
 .card-footer {
     background-color: #f0f0f0;
 }
+
+.icon {
+    width: 18px;
+    height: 18px;
+    font-family: 'Abel', 'sans-serif';
+    font-weight: bold;
+}
