@@ -114,6 +114,8 @@ h5 {
     height: 18px;
     font-family: 'Abel', 'sans-serif';
     font-weight: bold;
+    font-size: small;
+
 }
 
 #social-media {
@@ -126,3 +128,5 @@ h5 {
     text-transform: capitalize;
     background-color: #f0f0f0;
 }
+
+
