@@ -81,10 +81,13 @@ h5 {
     border: solid #e6e6e6 8px;
     border-radius: 10px;
     background-size: cover;
+
+
 }
 
 .image-div-1 {
     background-image: url("img/apple-ipad.jpg");
+
 }
 
 .image-div-2 {
@@ -116,6 +119,7 @@ h5 {
     font-weight: bold;
     font-size: small;
 
+
 }
 
 #social-media {
@@ -130,3 +134,7 @@ h5 {
 }
 
 
+#xs-logo {
+    display: flex;
+    justify-content: center;
+}
